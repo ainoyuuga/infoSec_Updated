@@ -69,42 +69,20 @@
       <!-- for chart-->
       <div style="position:fixed; right:-370px; top:100px;">
 
-        <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
-
-        <script>
-          var xValues = ["February", "March", "April", "May", "June"];
-          var yValues = [55, 49, 44, 24, 15];
-          var barColors = ["red", "green", "blue", "orange", "brown"];
-
-          new Chart("myChart", {
-            type: "bar",
-            data: {
-              labels: xValues,
-              datasets: [{
-                backgroundColor: barColors,
-                data: yValues
-              }]
-            },
-            options: {
-              legend: { display: false },
-              title: {
-                display: true,
-                text: "Post Management"
-              }
-            }
-          });
-        </script>
       </div>
       <!--end of chart-->
 
       <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
         <div
-          class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
           <div style="position:relative; float:inherit;">
             <h1 class="h2">Dashboard</h1>
+            <p style="position:relative; float:inherit;">Welcome to the admin dashboard, Handler! This part of the website is exclusive only for adminstrators. Here you can manage
+              the accounts and comments posted by users.</p>
           </div>
 
       </main>
+
     </div>
   </div>
 
